@@ -1,0 +1,72 @@
+
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+    font-family: 'Roboto Mono', monoespaçado;
+    background-image: url('https://img2.migalhas.com.br/_MEDPROC_/https__img.migalhas.com.br__SL__gf_base__SL__empresas__SL__MIGA__SL__imagens__SL__2021__SL__07__SL__23__SL__1ea786fb-f8db-40e3-977c-ef5a31bc542b.jpg._PROC_CP65.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+
+}
+
+.logo-alura{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-alura img{
+    width: 40px;
+    padding: 15px ;
+}
+
+.conteudoconversao{
+    text-align: center;
+    padding: 20px; 
+}
+
+.conteudo h1{
+color: white;
+padding: 10px;
+}
+
+.conteudo img{
+    max-width: 250px;
+}
+
+form{
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    margin: 10px 0 15px 0;
+    width: 400px;
+    height: 350px ;
+}
+
+input {
+    height: 30px;
+    margin: 10px 0 25px 0;
+ 
+}
+
+select{
+    height: 30px;
+    margin: 10px 0 25px 0;
+
+}
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Conversor de Moedas</title>
+        <meta name="description" content="conversor de moedas ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style..css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="container logo-alura">
+            <a href="https://alura.com.br/" target="_blank">
+                <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+            </a>    
+        </header>
+        <main class="container conteudoconversao">
+            <div class="conteudo">
+                <h1>Conversor de Cripto Moeda</h1>
+                <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="logo-imersaoDev">
+            </div>
+         <form>
+         <fieldset>
+
+            <legend>CONVERSOR</legend>
+                <label >Nome:</label>
+                <input id="nome" type="text">
+           
+                <label>Valor em Real:</label>
+                <input type="number" id="valorEntrada">
+
+                <label>Selecione uma Cripto Moeda:</label>
+                <select id="elementoMoeda" name="elementoMoeda" onchange="atribuiValorInput()">
+                     <option value="">Selecione uma moeda</option>
+                     <option value="B">Bitcoin</option>
+                     <option value="D">Dogecoin</option>
+                </select><br>
+            <label>Valor em Cripto Moeda:</label>
+            <input id="valorConvertido">
+            
+         </fieldset>
+        </form>
+
+        </main>
+        <script src="scripts.js"></script>
+    </body>
+     
+      
+    
+</html>
